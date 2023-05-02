@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2EA148E2A015C0F00AFA329 /* ceyehat_adminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA148D2A015C0F00AFA329 /* ceyehat_adminApp.swift */; };
+		C2EA14902A015C0F00AFA329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA148F2A015C0F00AFA329 /* ContentView.swift */; };
+		C2EA14922A015C1100AFA329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EA14912A015C1100AFA329 /* Assets.xcassets */; };
+		C2EA14952A015C1100AFA329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EA14942A015C1100AFA329 /* Preview Assets.xcassets */; };
+		C2EA14972A015C1100AFA329 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA14962A015C1100AFA329 /* Persistence.swift */; };
+		C2EA149A2A015C1100AFA329 /* ceyehat_admin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2EA14982A015C1100AFA329 /* ceyehat_admin.xcdatamodeld */; };
+		C2EA14A52A015C1100AFA329 /* ceyehat_adminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA14A42A015C1100AFA329 /* ceyehat_adminTests.swift */; };
+		C2EA14AF2A015C1100AFA329 /* ceyehat_adminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA14AE2A015C1100AFA329 /* ceyehat_adminUITests.swift */; };
+		C2EA14B12A015C1100AFA329 /* ceyehat_adminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA14B02A015C1100AFA329 /* ceyehat_adminUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2EA14A12A015C1100AFA329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2EA14822A015C0F00AFA329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2EA14892A015C0F00AFA329;
+			remoteInfo = "ceyehat-admin";
+		};
+		C2EA14AB2A015C1100AFA329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2EA14822A015C0F00AFA329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2EA14892A015C0F00AFA329;
+			remoteInfo = "ceyehat-admin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2EA148A2A015C0F00AFA329 /* ceyehat-admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ceyehat-admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EA148D2A015C0F00AFA329 /* ceyehat_adminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceyehat_adminApp.swift; sourceTree = "<group>"; };
+		C2EA148F2A015C0F00AFA329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2EA14912A015C1100AFA329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2EA14942A015C1100AFA329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2EA14962A015C1100AFA329 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C2EA14992A015C1100AFA329 /* ceyehat_admin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ceyehat_admin.xcdatamodel; sourceTree = "<group>"; };
+		C2EA149B2A015C1100AFA329 /* ceyehat_admin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ceyehat_admin.entitlements; sourceTree = "<group>"; };
+		C2EA14A02A015C1100AFA329 /* ceyehat-adminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ceyehat-adminTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EA14A42A015C1100AFA329 /* ceyehat_adminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceyehat_adminTests.swift; sourceTree = "<group>"; };
+		C2EA14AA2A015C1100AFA329 /* ceyehat-adminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ceyehat-adminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2EA14AE2A015C1100AFA329 /* ceyehat_adminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceyehat_adminUITests.swift; sourceTree = "<group>"; };
+		C2EA14B02A015C1100AFA329 /* ceyehat_adminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceyehat_adminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2EA14872A015C0F00AFA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA149D2A015C1100AFA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA14A72A015C1100AFA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2EA14812A015C0F00AFA329 = {
+			isa = PBXGroup;
+			children = (
+				C2EA148C2A015C0F00AFA329 /* ceyehat-admin */,
+				C2EA14A32A015C1100AFA329 /* ceyehat-adminTests */,
+				C2EA14AD2A015C1100AFA329 /* ceyehat-adminUITests */,
+				C2EA148B2A015C0F00AFA329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2EA148B2A015C0F00AFA329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA148A2A015C0F00AFA329 /* ceyehat-admin.app */,
+				C2EA14A02A015C1100AFA329 /* ceyehat-adminTests.xctest */,
+				C2EA14AA2A015C1100AFA329 /* ceyehat-adminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2EA148C2A015C0F00AFA329 /* ceyehat-admin */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA148D2A015C0F00AFA329 /* ceyehat_adminApp.swift */,
+				C2EA148F2A015C0F00AFA329 /* ContentView.swift */,
+				C2EA14912A015C1100AFA329 /* Assets.xcassets */,
+				C2EA14962A015C1100AFA329 /* Persistence.swift */,
+				C2EA149B2A015C1100AFA329 /* ceyehat_admin.entitlements */,
+				C2EA14982A015C1100AFA329 /* ceyehat_admin.xcdatamodeld */,
+				C2EA14932A015C1100AFA329 /* Preview Content */,
+			);
+			path = "ceyehat-admin";
+			sourceTree = "<group>";
+		};
+		C2EA14932A015C1100AFA329 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA14942A015C1100AFA329 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2EA14A32A015C1100AFA329 /* ceyehat-adminTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA14A42A015C1100AFA329 /* ceyehat_adminTests.swift */,
+			);
+			path = "ceyehat-adminTests";
+			sourceTree = "<group>";
+		};
+		C2EA14AD2A015C1100AFA329 /* ceyehat-adminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA14AE2A015C1100AFA329 /* ceyehat_adminUITests.swift */,
+				C2EA14B02A015C1100AFA329 /* ceyehat_adminUITestsLaunchTests.swift */,
+			);
+			path = "ceyehat-adminUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2EA14892A015C0F00AFA329 /* ceyehat-admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EA14B42A015C1100AFA329 /* Build configuration list for PBXNativeTarget "ceyehat-admin" */;
+			buildPhases = (
+				C2EA14862A015C0F00AFA329 /* Sources */,
+				C2EA14872A015C0F00AFA329 /* Frameworks */,
+				C2EA14882A015C0F00AFA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ceyehat-admin";
+			productName = "ceyehat-admin";
+			productReference = C2EA148A2A015C0F00AFA329 /* ceyehat-admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2EA149F2A015C1100AFA329 /* ceyehat-adminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EA14B72A015C1100AFA329 /* Build configuration list for PBXNativeTarget "ceyehat-adminTests" */;
+			buildPhases = (
+				C2EA149C2A015C1100AFA329 /* Sources */,
+				C2EA149D2A015C1100AFA329 /* Frameworks */,
+				C2EA149E2A015C1100AFA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2EA14A22A015C1100AFA329 /* PBXTargetDependency */,
+			);
+			name = "ceyehat-adminTests";
+			productName = "ceyehat-adminTests";
+			productReference = C2EA14A02A015C1100AFA329 /* ceyehat-adminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2EA14A92A015C1100AFA329 /* ceyehat-adminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2EA14BA2A015C1100AFA329 /* Build configuration list for PBXNativeTarget "ceyehat-adminUITests" */;
+			buildPhases = (
+				C2EA14A62A015C1100AFA329 /* Sources */,
+				C2EA14A72A015C1100AFA329 /* Frameworks */,
+				C2EA14A82A015C1100AFA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2EA14AC2A015C1100AFA329 /* PBXTargetDependency */,
+			);
+			name = "ceyehat-adminUITests";
+			productName = "ceyehat-adminUITests";
+			productReference = C2EA14AA2A015C1100AFA329 /* ceyehat-adminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2EA14822A015C0F00AFA329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C2EA14892A015C0F00AFA329 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C2EA149F2A015C1100AFA329 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C2EA14892A015C0F00AFA329;
+					};
+					C2EA14A92A015C1100AFA329 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C2EA14892A015C0F00AFA329;
+					};
+				};
+			};
+			buildConfigurationList = C2EA14852A015C0F00AFA329 /* Build configuration list for PBXProject "ceyehat-admin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2EA14812A015C0F00AFA329;
+			productRefGroup = C2EA148B2A015C0F00AFA329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2EA14892A015C0F00AFA329 /* ceyehat-admin */,
+				C2EA149F2A015C1100AFA329 /* ceyehat-adminTests */,
+				C2EA14A92A015C1100AFA329 /* ceyehat-adminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2EA14882A015C0F00AFA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA14952A015C1100AFA329 /* Preview Assets.xcassets in Resources */,
+				C2EA14922A015C1100AFA329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA149E2A015C1100AFA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA14A82A015C1100AFA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2EA14862A015C0F00AFA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA14972A015C1100AFA329 /* Persistence.swift in Sources */,
+				C2EA149A2A015C1100AFA329 /* ceyehat_admin.xcdatamodeld in Sources */,
+				C2EA14902A015C0F00AFA329 /* ContentView.swift in Sources */,
+				C2EA148E2A015C0F00AFA329 /* ceyehat_adminApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA149C2A015C1100AFA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA14A52A015C1100AFA329 /* ceyehat_adminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2EA14A62A015C1100AFA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA14B12A015C1100AFA329 /* ceyehat_adminUITestsLaunchTests.swift in Sources */,
+				C2EA14AF2A015C1100AFA329 /* ceyehat_adminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2EA14A22A015C1100AFA329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2EA14892A015C0F00AFA329 /* ceyehat-admin */;
+			targetProxy = C2EA14A12A015C1100AFA329 /* PBXContainerItemProxy */;
+		};
+		C2EA14AC2A015C1100AFA329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2EA14892A015C0F00AFA329 /* ceyehat-admin */;
+			targetProxy = C2EA14AB2A015C1100AFA329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2EA14B22A015C1100AFA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2EA14B32A015C1100AFA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C2EA14B52A015C1100AFA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ceyehat-admin/ceyehat_admin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ceyehat-admin/Preview Content\"";
+				DEVELOPMENT_TEAM = G738ZC6QZV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ademclk.ceyehat-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C2EA14B62A015C1100AFA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ceyehat-admin/ceyehat_admin.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ceyehat-admin/Preview Content\"";
+				DEVELOPMENT_TEAM = G738ZC6QZV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ademclk.ceyehat-admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C2EA14B82A015C1100AFA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G738ZC6QZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ademclk.ceyehat-adminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceyehat-admin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ceyehat-admin";
+			};
+			name = Debug;
+		};
+		C2EA14B92A015C1100AFA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G738ZC6QZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ademclk.ceyehat-adminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceyehat-admin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ceyehat-admin";
+			};
+			name = Release;
+		};
+		C2EA14BB2A015C1100AFA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G738ZC6QZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ademclk.ceyehat-adminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ceyehat-admin";
+			};
+			name = Debug;
+		};
+		C2EA14BC2A015C1100AFA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G738ZC6QZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ademclk.ceyehat-adminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ceyehat-admin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2EA14852A015C0F00AFA329 /* Build configuration list for PBXProject "ceyehat-admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA14B22A015C1100AFA329 /* Debug */,
+				C2EA14B32A015C1100AFA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EA14B42A015C1100AFA329 /* Build configuration list for PBXNativeTarget "ceyehat-admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA14B52A015C1100AFA329 /* Debug */,
+				C2EA14B62A015C1100AFA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EA14B72A015C1100AFA329 /* Build configuration list for PBXNativeTarget "ceyehat-adminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA14B82A015C1100AFA329 /* Debug */,
+				C2EA14B92A015C1100AFA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2EA14BA2A015C1100AFA329 /* Build configuration list for PBXNativeTarget "ceyehat-adminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2EA14BB2A015C1100AFA329 /* Debug */,
+				C2EA14BC2A015C1100AFA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2EA14982A015C1100AFA329 /* ceyehat_admin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2EA14992A015C1100AFA329 /* ceyehat_admin.xcdatamodel */,
+			);
+			currentVersion = C2EA14992A015C1100AFA329 /* ceyehat_admin.xcdatamodel */;
+			path = ceyehat_admin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2EA14822A015C0F00AFA329 /* Project object */;
+}
