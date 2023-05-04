@@ -13,8 +13,22 @@ struct ceyehat_adminApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            WelcomeView()
+        }
+        .commands {
+            CommandGroup(replacing: CommandGroupPlacement.sidebar) {
+                Button("Toggle Sidebar") {
+                    if let keyWindow = NSApp.keyWindow,
+                       let firstResponder = keyWindow.firstResponder {
+                        firstResponder.tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
+                    }
+                }
+                .keyboardShortcut("S", modifiers: [.command])
+            }
+        }
+        
+        WindowGroup("CreateAirportWindow") {
+            CreateAirportView()
         }
     }
 }
